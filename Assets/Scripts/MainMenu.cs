@@ -7,4 +7,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("URP2DSceneTemplate");
     }
+
+    public void OnPlayButtonClicked2()
+    {
+        SceneManager.LoadScene("main");
+    }
 }
