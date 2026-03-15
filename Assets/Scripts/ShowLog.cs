@@ -7,8 +7,5 @@ public class ShowLog : MonoBehaviour
         Debug.Log("Hello World!");
     }
 
-    void Update()
-    {
-        Debug.Log("Update called! " + Time.frameCount);
-    }
+   
 }
