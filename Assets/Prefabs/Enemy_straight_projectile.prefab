@@ -270,6 +270,7 @@ GameObject:
   - component: {fileID: 3335830116287071212}
   - component: {fileID: 2799898124234263119}
   - component: {fileID: 5849306118543761786}
+  - component: {fileID: 8805391736410269167}
   m_Layer: 7
   m_Name: Enemy_straight_projectile
   m_TagString: Enemy
@@ -495,3 +496,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
   health: {fileID: 2799898124234263119}
   damage: 1
+--- !u!114 &8805391736410269167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8560322502488518941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e6395cb11bcab4fbcf3ec8094c3ed9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlyPathAgent
+  flyPath: {fileID: 0}
+  flySpeed: 1
